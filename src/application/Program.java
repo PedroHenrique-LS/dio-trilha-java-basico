@@ -23,7 +23,7 @@ public class Program {
 		
 		ContaTerminal conta = new ContaTerminal(numeroConta, numeroAgencia, nomeCliente, saldoConta);
 		
-		System.out.println("Olá "+ conta.getNomeCliente() +", obrigado por criar uma conta em nosso banco, sua agência é "+ conta.getAgencia() +",\n conta " + conta.getNumero() +" e seu saldo "+ conta.getSaldo() +" já está disponível para saque.");
+		System.out.println("Olá " + conta.getNomeCliente() + ", obrigado por criar uma conta em nosso banco, sua agência é "+ conta.getAgencia() +",\n conta " + conta.getNumero() +" e seu saldo "+ conta.getSaldo() +" já está disponível para saque.");
 		
 		
 		sc.close();
